@@ -1,6 +1,7 @@
 # New Relic Custome Event ingestion using SNS and Lambda Function
 
 This is a custom feature using Amazon SNS (Simple Notification Service) and AWS Lambda can be designed to send specific application events or AWS resource events directly to New Relic via the New Relic Event API. This feature provides a way to monitor custom-defined events in AWS, generate insights, and visualize them within New Relic's observability platform.
+![Event Bridge Architecture Overview](NewRelic-AWS-Event-Bridge.gif)
 
 Example Use Cases:
 Application related information: Track specific information that cant be added to logs  or application exceptions that immediately forward them to New Relic for rapid incident tracking and response.
