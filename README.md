@@ -54,7 +54,7 @@ By default, this will build and pack the lambda zip inside of the Terraform Modu
       "order_count": "8" 
     } 
 ]
-
+```
 The following size and rate limits apply to events sent via the Event API:
 
 * Payload total size: 1MB(10^6 bytes) maximum per POST. We highly recommend using compression.
