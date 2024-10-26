@@ -14,6 +14,8 @@ Compliance and Security Event Tracking: Automatically send notifications of comp
 * To forward data to New Relic you need a [New Relic License Key](https://docs.newrelic.com/docs/accounts/install-new-relic/account-setup/license-key).
 * The Key must be added to AWS secrets in the following format
     {"new_relic_license_key":"<<YOUR_NEWRELIC_KEY>>"}
+* The account id of New relic account you are gofing to send events YOUR_NEWRELIC_ACCOUNT_ID
+
 
 ## Install and configure
 
